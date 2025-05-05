@@ -1,0 +1,399 @@
+/* Contact Section Styles */
+.contact-section {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+    padding: 80px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .contact-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .contact-info {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 30px;
+    color: #ddd;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contact-info i {
+    color: #ffde59;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #ccc;
+  }
+  
+  .contact-form button {
+    padding: 12px 25px;
+    background-color: #ffde59;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ffe97a;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  /* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+    background-color: #9eebe7;
+    color: rgba(0, 0, 0, 0.938);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+.hero-image img {
+  width: 300%;
+  height: auto;
+  max-height: 150vh;
+  object-fit: cover;
+  display: block;
+  margin: 100 auto;
+}
+
+
+
+.hero .cta-button:hover {
+    background-color: #e67e22;
+}
+
+/* Shop section */
+.shop {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.shop h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.product-card button {
+    background-color: #12f3f3;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #6ae622;
+}
+/* Modern Footer Styling */
+.modern-footer {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #ffffff;
+    padding: 50px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid rgba(255,255,255,0.1);
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .footer-brand h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .footer-brand p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ffffff;
+  }
+  
+  .footer-social a {
+    margin: 0 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
+  .footer-social a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+    color: #ffde59;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-links {
+      margin-top: 15px;
+    }
+  
+    .footer-social {
+      margin-top: 20px;
+    }
+  }
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auto CSS Slider</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      height: 100%;
+      font-family: sans-serif;
+    }
+
+    .slider {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 slides */
+      height: 100%;
+      animation: slideAnim 15s infinite;
+    }
+
+    .slide {
+      width: 100%;
+      height: 100%;
+      flex-shrink: 0;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .slide1 {
+      background-image: url('https://source.unsplash.com/1600x900/?nature,river');
+    }
+    .slide2 {
+      background-image: url('https://source.unsplash.com/1600x900/?architecture,modern');
+    }
+    .slide3 {
+      background-image: url('https://source.unsplash.com/1600x900/?desert,sunset');
+    }
+
+    @keyframes slideAnim {
+      0% { transform: translateX(0); }
+      33.33% { transform: translateX(0); }
+
+      33.34% { transform: translateX(-100%); }
+      66.66% { transform: translateX(-100%); }
+
+      66.67% { transform: translateX(-200%); }
+      100% { transform: translateX(-200%); }
+    }
+
+    /* Optional: Overlay text */
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+      text-align: center;
+    }
+
+    .overlay h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .overlay p {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="slider">
+  <div class="slides">
+    <div class="slide slide1"></div>
+    <div class="slide slide2"></div>
+    <div class="slide slide3"></div>
+  </div>
+
+  <!-- Optional Overlay -->
+  <div class="overlay">
+    <h1>Welcome to Nature</h1>
+    <p>Explore beauty around you</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
