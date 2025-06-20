@@ -107,15 +107,15 @@
 
 /* Body and font styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important ;
     line-height: 1.6;
 }
 
 /* Header and navigation */
 header {
-    background-color: #9eebe7;
-    color: rgba(0, 0, 0, 0.938);
-    padding: 1rem;
+    background-color: #4f41e7e4;
+    color: white;
+    padding: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,22 +123,24 @@ header {
 
 header .logo h1 {
     font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 nav ul li a {
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav ul li a:hover {
-    color: #f39c12;
+    color: #d4dff2;  
 }
 
 .hero-image img {
@@ -197,17 +199,21 @@ nav ul li a:hover {
 }
 
 .product-card button {
-    background-color: #12f3f3;
-    color: white;
-    padding: 1rem;
+    background-color: #4f41e7e4;
+    padding: 0.6rem;
     font-size: 1rem;
-    border: none;
-    border-radius: 2px;
+    border-radius: 8px;
     cursor: pointer;
+    border :1px solid #4f41e7e4;
+}
+.product-card button li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
 }
 
 .product-card button:hover {
-    background-color: #6ae622;
+    background-color: #6154eae4;
 }
 /* Modern Footer Styling */
 .modern-footer {
@@ -290,13 +296,7 @@ nav ul li a:hover {
       margin-top: 20px;
     }
   }
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Auto CSS Slider</title>
-  <style>
+ 
     * {
       box-sizing: border-box;
       margin: 0;
@@ -369,31 +369,9 @@ nav ul li a:hover {
     .overlay p {
       font-size: 1.2rem;
     }
-  </style>
-</head>
-<body>
-
-<div class="slider">
-  <div class="slides">
-    <div class="slide slide1"></div>
-    <div class="slide slide2"></div>
-    <div class="slide slide3"></div>
-  </div>
-
-  <!-- Optional Overlay -->
-  <div class="overlay">
-    <h1>Welcome to Nature</h1>
-    <p>Explore beauty around you</p>
-  </div>
-</div>
-
-</body>
-</html>
-
-
-
-
-
-
-
-
+ 
+    .main{
+      width :45vw;
+      margin :auto;
+      
+    }
